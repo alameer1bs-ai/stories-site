@@ -1,0 +1,104 @@
+body{
+  margin:0;
+  font-family: Arial;
+  direction:rtl;
+  background:#f5f6fa;
+  color:#222;
+}
+
+/* الهيدر */
+.hero{
+  height:300px;
+  background: linear-gradient(135deg, #ff4d4d, #ff9966);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+}
+
+.hero h1{
+  font-size:50px;
+  margin:0;
+}
+
+.hero p{
+  margin-top:10px;
+  opacity:0.9;
+}
+
+.hero input{
+  margin-top:15px;
+  padding:10px;
+  width:250px;
+  border:none;
+  border-radius:10px;
+  outline:none;
+}
+
+/* الكونتينر */
+.container{
+  width:90%;
+  max-width:1000px;
+  margin:auto;
+  padding:30px 0;
+}
+
+/* العنوان */
+.section-title{
+  text-align:center;
+  color:#ff4d4d;
+  margin:30px 0;
+}
+
+/* الكروت */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+  gap:20px;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  border-radius:15px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.1);
+  transition:0.3s;
+  text-align:center;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.card h3{
+  color:#ff4d4d;
+}
+
+.card p{
+  color:#555;
+}
+
+.card a{
+  display:inline-block;
+  margin-top:10px;
+  padding:10px 15px;
+  background:#ff4d4d;
+  color:white;
+  text-decoration:none;
+  border-radius:10px;
+  transition:0.3s;
+}
+
+.card a:hover{
+  background:#ff3333;
+}
+
+/* الفوتر */
+footer{
+  text-align:center;
+  padding:20px;
+  color:#888;
+  margin-top:30px;
+}
